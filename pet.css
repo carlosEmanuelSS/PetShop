@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255); /* cor de fundo de backup */
+    background-image: url('img/v1051-33b.jpg');
+    background-size: cover; /* cobre toda a tela */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* não repete a imagem */
+}
+
+
+/* MENU */
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px; /* espaço entre os botões */
+    margin: 40px ;
+    padding: 5;
+}
+
+ul.menu li {
+    margin: 1;
+}
+
+ul.menu li a {
+    display: block;
+    background-color: #008eff;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+ul.menu li a:hover {
+    background-color: #4d4dff;
+}
+
+
+
+/* Títulos */
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin: 20  px 10px;
+    font-family: Arial, sans-serif;
+    color: #008eff;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 30;
+    margin-right: 30;
+    margin: 20 ;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+
+}
+
+
+/* Lista de serviços */
+ul.servicos {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+ul.servicos li {
+    background-color: rgb(66, 139, 76);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+ul.servicos li:hover {
+    background-color: rgb(31, 52, 2);
+}
+
+/* TABELA DE CONTATOS */
+.contato-tabela {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.contato-tabela th, .contato-tabela td {
+    border: 1px solid #428b4c;
+    padding: 12px;
+}
+
+/* FORMULÁRIO*/
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contato-form input,
+.contato-form textarea {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #428b4c;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+.contato-form button {
+    background-color: #428b4c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato-form button:hover {
+    background-color: #21c800;
+}
+
+/* REDES SOCIAIS */
+.redes-sociais {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.redes-sociais li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.cachorro{
+    width: 400px;
+    padding: 50px;;
+}
+
+.gato{
+    width: 400px;
+    padding: 50px;;
+}
+
+.passaro{
+    width: 400px;
+    padding: 50px;;
+}
+
+.peixe{
+    width: 460px;
+}
+
+
+ul.menu2 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+
+ul.menu2 li {
+    margin-left: px;
+    margin-top: 20px;
+}
+
+ul.menu2 li a {
+    display: block;
+    background-color: #c0c7cd;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+ul.menu2 li a:hover {
+    background-color: #4d4dff;
+}
